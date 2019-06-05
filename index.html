@@ -6,25 +6,32 @@
 
 <head>
     <meta charset="UFT-8">
+    <!-- Title of the page -->
     <title>Crystals Collector</title>
+    <!-- linking stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <!--using bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- using jquery-->
+    <script src="https://code.jquery.com/jquery.js"></script>
         
 </head>
 
 
 
 <body>
+    <!-- container that will have all the rows.-->
     <div class="container">
         <div class="row">
             <div class="col-4">
+                <!-- header, game name-->
                 <h1>Crystal Collector!</h1>
             </div>
         </div>
         <div class="row">
+            <!-- column of instructions-->
             <div class="col-7">
                 <p1>You will be given a random number at the start of the game.</p1>
                 <br><br>
@@ -44,10 +51,11 @@
         </div>
         <div class="row">
             <div class="col-3">
+                <!-- A random scoreGoal will appear. -->
                 <h2 class="scoreGoal"></h2>
             </div>
+            <!-- wins and losses count-->
             <div class="col-3">
-                        <p3 id="winLoseStatement"></p3>
                         <p3> Wins: </p3>
                         <p3 id="win"> </p3>
                         <br>
@@ -56,7 +64,7 @@
                 </div>
             </div>
         </div>
-        
+        <!-- row of gem pictures-->
         <div id = "gemsRow" class ="row">
             <div class = "col-1">
                 <img src = "assets/images/red.png" class = "redGem">
@@ -74,6 +82,7 @@
 
 
         </div>
+        <!-- current score-->
         <div class = "row">
             <div class = "col-4">
                 <p1>Your Score is: </p1>
@@ -93,7 +102,7 @@
 
 
 
-
+<!-- likning the javascript file-->
     <script src="assets/javascript/game.js"></script>
 </body>
 
